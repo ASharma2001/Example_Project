@@ -1,0 +1,11 @@
+#recipe-search-button {
+    display: block;
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+.recipe-search-input {
+    display: none;
+    color: blue;
+    padding: 10px;
+}
