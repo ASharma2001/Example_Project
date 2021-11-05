@@ -5,7 +5,7 @@
 }
 
 .recipe-search-input {
-    display: none;
+    display: block;
     color: blue;
     padding: 10px;
 }

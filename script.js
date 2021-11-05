@@ -5,6 +5,11 @@ const recipeCardTitle = document.getElementsByClassName('recipe-card-title');
 const recipleSearchInput = document.getElementsByClassName('recipe-search-input');
 const recipeSearchButton = document.getElementById('recipe-search-button');
 
+// Example of fetching data from an API
+fetch('https://api.publicapis.org/entries').then(res => res.json()).then(data => {
+    console.log(data);
+})
+
 // Add event listener for the recipe search input field
 recipleSearchInput.addEventListener('change', (e) => {
     console.log(e.target.value);
